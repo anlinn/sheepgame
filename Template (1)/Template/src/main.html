@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+
+    <link href="design.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+    <title>Document</title>
+
+</head>
+
+<body>
+    //Überschriften
+    <h1>Unsere Web-App</h1>
+    <h2>Unsere Web-App aber in kleiner</h2>
+    <h3>Ok I am curious now </h3>
+    //Paragraph
+    <p>Dies ist einnnnn Testparagraphhhh.
+        <br />
+        Was bedeutet...alles? Ich schreibe random dinge. Ladidum.
+        Ich bin <em>dumm</em>. Dieses Wort ist <cursive>kurSIv</cursive>. Cuz I am
+        AM <sub>extra.</sub>
+    </p>
+    <hr />
+    <img src=https://cdn.pixabay.com/photo/2018/08/12/16/59/ara-3601194_960_720.jpg alt="my soul" />
+    <ul>
+        <li>Order 1</li>
+        <li>Order 2</li>
+        <li>Order 3</li>
+    </ul>
+
+    <ol>
+        <li>Order 1</li>
+        <li>Order 2</li>
+        <li>Order 3</li>
+    </ol>
+    <br />
+
+    <script>
+ //Grundausgaben
+        console.log("Hallo Welt");
+        console.log("Aloha");
+
+
+ //Passwort-Spiel
+       /* let Passwort = prompt("Lege bitte ein Passwort fest. Es ollte enthalten: 1 Großbuchstabe, 1 Sonderzeichen, 1 Zahl, den Namen deines erstgeborenen Kindes, das Zauberwort");
+        alert("Ernsthaft?");
+        alert("Na wenn du meinst. Dein Passwort lautet " + Passwort);
+        let Abfrage = prompt("Ok,bitte gib dein Passwort ein: ")
+        if (Abfrage == Passwort) {
+            alert("Congrats, U unlocked absolutely nothing. Now go back to ur sad life.")
+        }
+        else if (text.length(Abfrage) < text.length(Passwort)) {
+            alert("Deine Eingabe ist zu kurz. Try again.")
+        }
+        else if (text.length(Abfrage) > text.length(Passwort)) {
+            alert("Deine Eingabe ist zu lang. Try again.")
+        }
+        else {
+            console.log("Ok I actually dont know what , THE FUCK, U did wrong noq")
+        }
+*/
+       
+ // Spiel: Zahlenraten
+        /*  let goal = parseInt(7);
+          let eingabe = parseInt(prompt("Ur number, bitch?"));
+      
+          while (eingabe != goal) {
+              if ((eingabe - goal) < 10) {
+                  console.log("Damn girl, she close");
+                  alert("Damn girl U close.")
+              } else {
+                  console.log("Uff, no U are far off.");
+                  alert("Uff, no far off.")
+              }
+              eingabe = parseInt(prompt("I'll let U try again, cuz U are cute: "))
+          }
+      
+          console.log("Lucky son o4f a bitch. Congratulations")
+      
+
+
+
+ // While Schleife #1: Läuft solange die Bedingung wahr ist
+        /*let Passwort = prompt("Lege bitte ein Passwort fest. Es ollte enthalten: 1 Großbuchstabe, 1 Sonderzeichen, 1 Zahl, den Namen deines erstgeborenen Kindes, das Zauberwort");
+        while (text.length(Passwort) < 1)
+            alert("Ernsthaft?");
+        alert("Na wenn du meinst. Dein Passwort lautet " + Passwort);
+        let Abfrage = prompt("Ok,bitte gib dein Passwort ein: ")
+        if (Abfrage == Passwort) {
+            alert("Congrats, U unlocked absolutely nothing. Now go back to ur sad life.")
+        }
+        else if (text.length(Abfrage) < text.length(Passwort)) {
+            alert("Deine Eingabe ist zu kurz. Try again.")
+        }
+        else if (text.length(Abfrage) > text.length(Passwort)) {
+            alert("Deine Eingabe ist zu lang. Try again.")
+        }
+        else {
+            console.log("Ok I actually dont know what , THE FUCK, U did wrong noq")
+        }
+      */
+
+
+
+ //While Schleife #2:  diese hier läuft 4 mal 
+        /* i = 0
+         while (i < 4) {
+             console.log("Nope, not yet");
+             i = i + 1;
+      
+         }
+         alert("Yes, now U are ready")
+         */
+
+
+
+    
+ // For Schleife: Läuft 3 mal
+      /*  for (let j = 1; j < 4;) {
+            alert("Nope")
+            j = j + 1
+        }
+
+        for (let k = 1; k < 4; k = k + 1) {
+            console.log("this is the same thing as above")
+        }
+
+        alert("ok U are ready")
+        document.write("WHaaaat??")
+
+        for (let m = 5; m > 1; m = m - 1) {
+            console.log("Ha")
+        }
+*/
+
+
+
+
+
+// Eingabeelemente:
+//1. Button
+ 
+
+
+// Functions from the internet:
+        function obst(id, text) {
+            var obj = document.getElementById(id).firstChild;
+            obj.nodeValue = text;
+        }
+
+        function welches_obst(id) {
+            var obj = document.getElementById(id).firstChild;
+            alert(obj.nodeValue);
+        }
+
+        function init() {
+            document.getElementById('button').addEventListener('click', changeHTMLContent);
+        }
+
+        function changeHTMLContent() {
+            var neu = "neuer <b>fetter</b> Text";
+            document.getElementById('absatz').innerHTML = neu;
+        }
+
+        function show_elements() {
+            var elementNames = show_elements.arguments;
+            for (var i = 0; i < elementNames.length; i++) {
+                var elementName = elementNames[i];
+                document.getElementById(elementName).style.display = 'block';
+            }
+        }
+       
+// MY functions
+         function doesSomething(){
+             alert("Reingefallen.")
+         }
+
+         counter = 0
+         function function2(){
+             console.log("I hate myself.")
+             counter ++;
+             console.log(counter);
+
+         }
+
+         function saymyname(){
+            let usernameTextBox =document.getElementById("username");
+            let username =usernameTextBox.value;
+             console.log(username)
+          
+             alert(username)
+        }
+         
+        function Isuck(){
+            let aCheckbox =document.getElementById("a");
+            if(aCheckbox.checked){
+                alert("mir egal")
+            }else{
+                alert("egal")
+            }
+        }
+         
+    </script>
+
+    Obst: <span id="Test">Kirsche</span> <br>
+
+    <input type="button" value="Apfel" onClick="obst('Test','Apfel')">
+    <input type="button" value="Birne" onClick="obst('Test','Birne')">
+    <input type="button" value="Welches Obst wurde ausgewählt?" onClick="welches_obst('Test')">
+
+</br>
+<hr/>
+    <button type ="button1" onclick="doesSomething();">
+        "Klick mich!"
+    </button>
+  
+
+    <button type ="button2" onclick ="function2();">
+        "Curious?"
+           
+    </button>
+
+    <button type="button" onclick="saymyname();">
+        Wanna know the answer to who sucks the most??
+    </button>
+
+    
+
+    <input type="text" id="username">
+
+
+    
+
+</br> 
+<hr/>
+
+
+
+    <input type ="radio" name="icecream" id="Vanilleeis" checked> 
+    <label for ="Vanilleeis">Vanilleeis</label>
+
+</br>
+    <input type ="radio" name= "icecream" id="Schokoeis">  
+    <label for = "Schokoeis">Schokoeis</label>
+
+
+    <input type="checkbox"  id ="a">
+    <label for="a">Mir geht es gut</label>
+
+  <button type ="button" onclick="Isuck();">
+     Meine Meinung dazu:
+  </button>
+
+
+    
+
+    
+</body>
+
+</html>

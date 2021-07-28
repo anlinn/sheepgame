@@ -1,0 +1,100 @@
+img{
+    width: 400px;
+    border: rgb(192, 65, 192) 5px dotted;
+}
+/*dies ist eine Notiz*/
+
+body{
+    background-color: mistyrose;
+    
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size:40px;
+    font-variant: inherit;
+    text-decoration:palevioletred underline;
+    font-weight:bold;
+}
+
+p{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-indent: 10px;
+    text-transform: lowercase;
+ text-shadow:-1px 1px 1px rgb(240, 7, 85);
+}
+
+
+body {
+    
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  }
+  
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+
+
+  h2{
+      font-size: 20px;
+      margin:0;
+      writing-mode:verical-lr;
+      text-align:left;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
